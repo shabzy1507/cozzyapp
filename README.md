@@ -1,1 +1,2 @@
-# cozzyapp
+# cozzy app
+lets fucking go
