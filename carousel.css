@@ -1,0 +1,137 @@
+/* 
+#BC6C25
+#283618
+#171F0E
+#FEFAE0
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  gap: 300px;
+}
+.carousel {
+  width: 40.1rem;
+  height: 49.2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: "Nunito", sans-serif;
+}
+.carousel-img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.img-box {
+  position: relative;
+}
+.text-box {
+  background-color: #fefae0;
+  padding: 1.6rem 2.5rem 0rem 2.5rem;
+  height: 100%;
+}
+.carousel-details {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.carousel-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel-head {
+  font-weight: 700;
+  font-size: 16px;
+  /* color: #283618; */
+  color: rgba(40, 54, 24, 0.85);
+}
+.text-content {
+  font-weight: 400;
+  font-size: 16px;
+  color: #171f0e;
+  opacity: 70%;
+}
+.text-content + p {
+  color: #171f0e;
+  opacity: 70%;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.carousel-prize span {
+  color: #bc6c25;
+  font-weight: 700;
+  font-size: 16px;
+}
+.right-button,
+.left-button {
+  border: none;
+  background-color: #ffebda;
+  height: 28px;
+  width: 28px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+.right-button {
+  right: 25px;
+}
+.left-button {
+  left: 25px;
+}
+.ellipses {
+  position: absolute;
+  display: flex;
+  bottom: 10px;
+  gap: 4px;
+  align-items: center;
+  right: 50%;
+  transform: translate(50%, 0);
+}
+.ellipse {
+  border: none;
+  background-color: #fff;
+  border-radius: 100%;
+  cursor: pointer;
+  opacity: 50%;
+}
+.ellipse-small {
+  width: 6px;
+  height: 6px;
+}
+.ellipse-mid {
+  width: 8px;
+  height: 8px;
+}
+.ellipse-big {
+  width: 10px;
+  height: 10px;
+}
+.ellipse-fill {
+  background-color: #fda85c;
+  opacity: 100%;
+}
